@@ -4,5 +4,6 @@
 public class MyThreadTest {
     public static void main(String[] args){
         System.out.println("Test");
+        Thread thread=new Thread();
     }
 }
