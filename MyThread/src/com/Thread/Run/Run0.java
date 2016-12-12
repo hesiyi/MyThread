@@ -1,6 +1,6 @@
-package Test;
+package com.Thread.Run;
 
-import com.Thread.MyThread0;
+import com.Thread.Thread.MyThread0;
 
 /**
  * Created by 49005 on 2016/12/12.

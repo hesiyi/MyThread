@@ -1,4 +1,4 @@
-package com.Thread;
+package com.Thread.Thread;
 
 /**
  * Created by 49005 on 2016/12/9.
