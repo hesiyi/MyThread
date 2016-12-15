@@ -6,15 +6,15 @@ package Synchronized_Thread.synchronizedMethodLockObject2;
  * Created by 49005 on 2016/12/13.
  */
 public class ThreadB extends Thread {
-    private MyObject myObject;
+    private MyObject1 myObject1;
 
-    public ThreadB(MyObject myObject){
+    public ThreadB(MyObject1 myObject1){
         super();
-        this.myObject=myObject;
+        this.myObject1 = myObject1;
     }
     @Override
     public void run() {
         super.run();
-        myObject.methodB();
+        myObject1.methodB();
     }
 }
