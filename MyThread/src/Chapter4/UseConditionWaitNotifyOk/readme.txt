@@ -1,0 +1,6 @@
+await时间为：1482735757431
+signal 时间为1482735760430
+
+Object类中的方法相当于Condition类中的await()方法
+
+Object类中的notify()方法相当于Condition类中的signal()方法
