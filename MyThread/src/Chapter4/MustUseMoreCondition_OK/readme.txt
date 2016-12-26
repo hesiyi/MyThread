@@ -1,0 +1,10 @@
+begin awaitA时间为1482744576445ThreadName=A
+begin awaitB时间为1482744576448ThreadName=B
+ sinagleAll时间为1482744579444ThreadName=main
+end awaitA时间为1482744579445ThreadName=A
+
+
+
+使用多个Condition实现通知部分线程：正确用法
+
+只有A被唤醒了
