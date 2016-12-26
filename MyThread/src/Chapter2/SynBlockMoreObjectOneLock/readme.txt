@@ -1,0 +1,6 @@
+同步synchronized(class)代码块的作用其实是和synchronized static方法作用一样
+
+线程名称为：B在1482458868352进入printfB
+线程名称为：B在1482458868352离开printfB
+线程名称为：A在1482458868352进入printfA
+线程名称为：A在1482458871365离开printfA
