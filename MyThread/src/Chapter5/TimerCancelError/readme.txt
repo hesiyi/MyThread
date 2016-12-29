@@ -1,0 +1,3 @@
+第12722次没有被cancel取消
+
+并没有停止,原因是Timer类中的cancel()方法有时并没有争抢到queue锁,则让TimerTask类中的任务正常执行
