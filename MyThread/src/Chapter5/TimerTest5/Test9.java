@@ -12,8 +12,8 @@ public class Test9 {
     static public class MyTask extends TimerTask{
         @Override
         public void run() {
-            System.out.println("begin timer="+System.currentTimeMillis());
-            System.out.println("  end timer="+System.currentTimeMillis());
+            System.out.println("begin timer="+new Date());
+            System.out.println("  end timer="+new Date());
         }
     }
     public static void main(String[] args){
